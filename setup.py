@@ -1,14 +1,11 @@
 from setuptools import setup, find_packages
 
-with open("pythonmc/README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
 setup(
     name="pythonmc-mod",
     version="3.0.0-alpha",
     author="PythonMC Team",
     description="Python library for PythonMC Minecraft mod",
-    long_description=long_description,
+    long_description="Python library for PythonMC Minecraft mod. See documentation for details.",
     long_description_content_type="text/markdown",
     url="https://github.com/tu-usuario/pythonmc",
     packages=find_packages(),
